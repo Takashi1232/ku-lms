@@ -1,0 +1,3141 @@
+
+<!DOCTYPE html>
+<html lang="ja-JP" dir="ltr" class="Mrphs-html sakaiUserTheme-light">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+        <script>
+            var portal = {
+                "bullhorns": {
+                    "enabled": true,
+                    "alertCount": 8
+                },
+                "chat": {
+                    "enabled": false,
+                    "pollInterval": 5000,
+                    "video" : {
+                        "enabled": true
+                    }
+                },
+                "i18n": {
+                    "theme_switch_to_light": "ライトテーマに変更",
+                    "theme_switch_to_dark": "ダークテーマに変更",
+                },
+                "loggedIn": true,
+                "portalPath": "https://lms.gakusei.kyoto-u.ac.jp/portal",
+                "loggedOutUrl": "https://lms.gakusei.kyoto-u.ac.jp/portal",
+                "siteId": "~4ea855ea-a5e2-463c-8306-0719cf37a613",
+                "siteTitle": "ホーム",
+                "shortDescription" : "",
+                "toolsCollapsed":  false ,
+                "locale": "ja-JP" || "en-US",
+                "serverTimeMillis": "1775700039247",
+                "user": {
+                    "id": "4ea855ea-a5e2-463c-8306-0719cf37a613",
+                    "eid": "a0242607",
+                    "userType": "",
+                    "siteRole": "maintain",
+                    "impersonatorDisplayId": "",
+                    "iso8601Timestamp": "2026-04-09T11:00:39.247189",
+                    "timezone": "Asia/Tokyo",
+                    "offsetFromServerMillis": "32400000"
+                },
+                "timeoutDialog" : {
+                "enabled": true,
+                "seconds": 600
+                },
+                "toggle" : {
+                    "allowauto": false,
+                    "tools": false,
+                    "sitenav": false // This is not allowed in morpheus
+                },
+                "pageScriptPath" : "/library/js/",
+                "editor" : {
+                    "type": "",
+                },
+                "portalCDNQuery" : "?version=kulms",
+                "sakaiSkin" : "default-skin",
+                "userTheme" : "sakaiUserTheme-light",
+                                "userThemeAutoDetectDark" : true,
+                                "mathJaxConfig" : {
+                    "format" : ["LaTeX",]
+                },
+                toolTitles : {"sakai.schedule": "\u30AB\u30EC\u30F3\u30C0\u30FC","sakai.dashboard": "\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9","sakai.motd": "\u4ECA\u65E5\u306E\u30E1\u30C3\u30BB\u30FC\u30B8","sakai.resources": "\u6388\u696D\u8CC7\u6599\uFF08\u30EA\u30BD\u30FC\u30B9\uFF09","sakai.singleuser": "\u30A2\u30AB\u30A6\u30F3\u30C8","sakai.preferences": "\u8A2D\u5B9A","sakai.membership": "\u30E1\u30F3\u30D0\u30FC\u30B7\u30C3\u30D7","sakai.sitesetup": "\u30B5\u30A4\u30C8\u30BB\u30C3\u30C8\u30A2\u30C3\u30D7","sakai.announcements": "\u304A\u77E5\u3089\u305B",},
+                notifications: { pushEnabled: true, debug: false },
+                serviceName: "lms",
+            };
+        </script>
+
+        <script type="module" src="/webcomponents/bundles/base.js?version=kulms"></script>
+
+         <title>lms : Home : 概要</title>
+                
+
+<link href="/library/skin/default-skin/tool.css?version=kulms" rel="stylesheet" media="screen, tty, tv, handheld, projection">
+<link href="/library/skin/default-skin/print.css?version=kulms" rel="stylesheet" media="print">
+        <link href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css?version=kulms" rel="stylesheet" />
+        <link href="/library/js/jquery/cluetip/1.2.10/css/jquery.cluetip.css?version=kulms" rel="stylesheet">
+        <link href="/library/webjars/qtip2/3.0.3-1/jquery.qtip.min.css?version=kulms" rel="stylesheet">
+        <link href="/library/webjars/cropper/4.1.0/dist/cropper.min.css?version=kulms" rel="stylesheet">
+        <script src="/library/js/modernizr.js?version=kulms"></script>
+        <script src="/library/js/BreakpointManager.js?version=kulms"></script>
+        <script src="/library/js/sakai-lti-advantage.js?version=kulms"></script>
+        <script src="/library/webjars/momentjs/2.29.1/min/moment-with-locales.min.js?version=kulms"></script>
+        <script src="/library/webjars/popper.js/2.9.3/umd/popper.min.js?version=kulms"></script>
+        <script src="/library/webjars/bootstrap/5.2.0/js/bootstrap.min.js?version=kulms"></script>
+        <script src="/library/webjars/dompurify/2.3.6/dist/purify.min.js?version=kulms"></script>
+        <script type="module" src="/webcomponents/bundles/base.js?version=kulms"></script>
+        <script src="/library/js/trimpath-template-latest.js?version=kulms"></script>
+        <script>
+            moment.locale(window.portal.locale);
+        </script>
+        <script src="/library/js/portal/portal.sidebar.sites.js?version=kulms"></script>
+<script src="/library/js/portal/portal.sidebar.collapse.js?version=kulms"></script>
+<script src="/library/js/portal/portal.serverinfo.js?version=kulms"></script>
+    <script src="/library/js/lessons-subnav.js?version=kulms"></script>
+    <script src="/library/js/portal/portal.init.js?version=kulms"></script>
+    <script src="/library/js/portal/portal.all.sites.js?version=kulms"></script>
+            <script src="/profile2-tool/javascript/profile2-eb.js?version=kulms"></script>
+    
+        <!-- inlined tool header contribution -->
+                        	        		
+        	                	        		
+        	                        	        		
+        	                	        		
+        	                	        		
+        	                <!-- end inlined tool header contribution -->
+
+                                 <link rel="icon" href="/library/icon/favicon.ico" type="image/x-icon">
+            </head>
+
+    
+        
+
+    <noscript>
+        <span id="portal_js_warn" class="Mrphs-noJs js-warn-no-js">JavaScript を有効化すると KULMS はよりよく機能します．ブラウザの JavaScript を有効化して下さい．</span>
+    </noscript>
+    
+            <script type="text/javascript" src="/library/js/headscripts.js?version=kulms"></script>
+<script type="text/javascript">var sakai = sakai || {}; sakai.editor = sakai.editor || {}; sakai.editor.editors = sakai.editor.editors || {}; sakai.editor.editors.ckeditor = sakai.editor.editors.ckeditor || {}; sakai.locale = sakai.locale || {};
+sakai.locale.userCountry = 'JP';
+sakai.locale.userLanguage = 'ja';
+sakai.locale.userLocale = 'ja_JP';
+sakai.editor.collectionId = '/user/4ea855ea-a5e2-463c-8306-0719cf37a613/';
+sakai.editor.enableResourceSearch = false;
+sakai.editor.contentItemUrl = false;
+sakai.editor.siteToolSkin = '/library/skin/default-skin/tool.css';
+sakai.editor.sitePrintSkin = '/library/skin/default-skin/print.css';
+sakai.editor.sitePropertiesSkin = '/library/skin/default-skin/properties.css';
+sakai.editor.editors.ckeditor.browser = 'elfinder';
+</script>
+<script type="text/javascript">var CKEDITOR_BASEPATH='/library/webjars/ckeditor4/4.22.1/';
+</script>
+<script type="text/javascript" src="/library/webjars/ckeditor4/4.22.1/ckeditor.js?version=kulms"></script>
+<script type="text/javascript" src="/library/editor/ckeditor.launch.js?version=kulms"></script>
+
+     
+    <body class="Mrphs-portalBody overflow-hidden " data-bs-no-jquery="true">
+
+        <noscript class="d-block text-center p-5 vh-100">
+    <div class="alert alert-danger js-warn-no-js shadow-lg">
+        JavaScript を有効化すると KULMS はよりよく機能します．ブラウザの JavaScript を有効化して下さい．
+    </div>
+</noscript>
+
+        
+        <div id="pageBody"
+             class="Mrphs-portalWrapper vh-100 portal-container  " tabindex="0">
+            <div class="portal-pasystem"></div>
+                        <nav id="skipNav" class="Mrphs-skipNav" aria-label="リンクナビゲーションをスキップ">
+    <ul class="Mrphs-skipNav__menu">
+
+                 <li class="Mrphs-skipNav__menuitem Mrphs-skipNav__menuitem--content">
+            <a href="#tocontent" class="Mrphs-skipNav__link" title="コンテンツにジャンプ" accesskey="c">
+                コンテンツにジャンプ
+                <span class="accesibility_key">[c]</span>
+            </a>
+        </li>
+                <li class="Mrphs-skipNav__menuitem Mrphs-skipNav__menuitem--worksite">
+            <a href="#"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#select-site-sidebar"
+                    aria-controls="select-site-sidebar"
+                    class="Mrphs-skipNav__link js-toggle-sites-nav"
+                    title="ワークサイト一覧にジャンプ" accesskey="w">
+                <i class="si si-grid-3x3-fill all-sites-icon" aria-hidden="true"></i> サイト
+                <span class="accesibility_key">[w]</span>
+            </a>
+        </li>
+                 <li class="Mrphs-skipNav__menuitem Mrphs-skipNav__menuitem--tools">
+            <a id="totool" href="#totoolmenu" class="Mrphs-skipNav__link js-toggle-sites-nav" title="ツール一覧にジャンプ" accesskey="l">
+                <i class="si si-sakai-sites" aria-hidden="true"></i>
+                ツール
+                <span class="accesibility_key">[l]</span>
+            </a>
+												<a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/page-reset/adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005" title="ツールホーム" class="xs-visible Mrphs-skipNav--toolName">
+						<span class="Mrphs-breadcrumb--icon icon-sakai--sakai-motd "></span>
+						<span>概要</span>
+					</a>
+
+                                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/tool-reset/bc3566e7-efdf-4e9a-8572-04033f3393cd?sakai_action=doManageOverviewFromHome" title="概要を管理" class="manage-overview-link-mobile">
+                            <span class="fa fa-pencil"></span>概要を管理
+                        </a>
+                    																																																															        </li>
+    </ul>
+</nav>
+<script>
+    window.addEventListener("load", function() {
+
+        document.getElementById("totool").addEventListener("click", function() {
+
+            document.querySelector(".nav-item").focus();
+        });
+    });
+</script>
+
+                        
+<header class="portal-header d-flex align-items-center justify-content-between" role="banner">
+
+    <button class="btn icon-button m-1 d-md-none btn-sidebar-collapse responsive-sidebar-button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#portal-nav-sidebar"
+      aria-controls="portal-nav-sidebar"
+      aria-label="サイトナビゲーションを表示"
+      aria-expanded="false"
+      title="サイトナビゲーションを表示">
+    <span class="bi bi-list"></span>
+  </button>
+  
+  <div class="d-flex align-items-center">
+    <div id="logoWrapper" class="portal-header-logo d-flex align-items-center justify-content-between bg-primary">
+      <a class="btn" href="/portal" title="ホーム">
+        <button class="btn icon-button btn-logo-button" type="button">
+          <img src="/library/skin/default-skin/images/sakaiLogo.png" alt="Sakai Logo">
+        </button>
+      </a>
+      <button id="sidebar-collapse-button" class="btn icon-button btn-sidebar-collapse me-1 d-none d-md-block"
+          type="button"
+          data-portal-sidebar-collapsed="false"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          title="サイドバーを畳む"
+          aria-controls="portal-nav-sidebar">
+        <span class="bi bi-list"></span>
+      </button>
+    </div>
+        <div class="align-items-center portal-header-breadcrumb d-none d-md-flex">
+      <div id="header-site-title" class="ms-3 portal-header-breadcrumb-item">
+        <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613">ホーム</a>
+      </div>
+                        <div class="mx-2 bi bi-chevron-right portal-header-breadcrumb-separator d-none d-md-block"></div>
+          <div class="portal-header-breadcrumb-item header-tool-title">
+            <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/page-reset/adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005" title="ツールホーム">概要</a>
+          </div>
+                                                                                                                                  </div>
+      </div>
+
+  <a href="#" class="sak-sysInd-systemAlerts nav-link d-none align-items-center text-white me-auto" onclick="alert('Somehow we will get the dismissed PA System alert to re-appear');">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-diamond me-1 text-warning" viewBox="0 0 16 16">
+      <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+      <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+    </svg>
+    <span class="d-none d-md-inline">View System Alert</span>
+  </a>
+
+      <ul id="sakai-system-indicators" class="nav flex-nowrap align-items-center">
+
+
+          <li class="d-none d-md-inline">
+      <a class="sak-sysInd-help desktop-help-icon"
+          title="ヘルプ"
+          href="https://lms.gakusei.kyoto-u.ac.jp/portal/help/main?help=sakai.motd"
+          target="_blank">
+        <button class="btn icon-button" type="button"
+	    aria-label="ヘルプ">
+          <i class="bi bi-question-circle"></i>
+        </button>
+      </a>
+    </li>
+    <li class="d-none d-md-inline">
+    <button class="btn icon-button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#select-site-sidebar"
+        aria-label="すべてのサイトを表示"
+        aria-controls="select-site-sidebar"
+        title="すべてのサイトを表示">
+      <i class="si si-all-sites"></i>
+    </button>
+  </li>
+
+      <li class="d-none d-md-inline">
+      <button class="btn icon-button portal-search-button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sakai-search-panel"
+          aria-controls="sakai-search-panel"
+          aria-label="KULMS 内を検索"
+          title="KULMS 内を検索">
+        <i class="bi-search"></i>
+      </button>
+    </li>
+  
+  
+      <li class="d-none d-md-inline">
+      <button class="portal-notifications-button btn icon-button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sakai-notifications-panel"
+          aria-controls="sakai-notifications-panel"
+          aria-label="通知を表示"
+          title="通知を表示">
+        <i class="portal-notifications-icon bi-bell"></i>
+        <span class="portal-notifications-indicator p-1 rounded-circle d-none">
+          <span class="visually-hidden">新着通知</span>
+        </span>
+      </button>
+    </li>
+      <li>
+      <button class="btn icon-button sak-sysInd-account"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sakai-account-panel"
+          aria-controls="sakai-account-panel"
+          title="アカウント">
+          原
+        </button>
+    </li>
+</ul>
+  </header>
+
+              <sakai-picture-changer dialog-title="プロフィール画像を変更"></sakai-picture-changer>
+
+
+              <div id="maxToolsText" style="display: none">サイトに移動してすべて表示</div>
+  <div id="maxToolsInt" style="display: none">10</div>
+  <div id="refresh-notification-text" style="display: none">更新したお気に入りサイトを表示するためには<a href="javascript:location.reload()">再読み込み</a>を行います．</div>
+  <div id="maxFavoritesLimitReachedText" style="display: none">ピン留め可能なサイト数は10です．</div>
+
+  <div id="select-site-sidebar"
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      aria-labelledby="select-site-label">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title" id="select-site-label">すべてのサイトを表示</h2>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="閉じる"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div id="allsites-refresh-notification" class="sak-banner-info" style="display: none">更新したお気に入りサイトを表示するためには<a href="javascript:location.reload()">再読み込み</a>を行います．</div>
+      <div class="d-none" id="max-favorite-entries">10</div>
+      <ul id="otherSitesMenu" role="menubar">
+        
+          <li role="menuitem">
+            <a id="allSites" href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/tool/bc3566e7-efdf-4e9a-8572-04033f3393cd">
+              <span>サイトを編集</span>
+            </a>
+          </li>
+
+           
+         
+      </ul>
+      <div id="selectSite">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item" id="tab-othersites" role="presentation">
+            <button class="nav-link active"
+                id="allsites-other-sites-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#other-sites-category-wrap"
+                type="button"
+                role="tab"
+                aria-controls="other-sites-category-wrap"
+                aria-selected="true">
+              サイト
+            </button>
+          </li>
+          <li class="nav-item" id="tab-favorites" role="presentation">
+            <button class="nav-link"
+                id="allsites-organize-favourites-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#organize-favorites"
+                type="button"
+                role="tab"
+                aria-controls="organize-favorites"
+                aria-selected="false">
+              <span class="favorites-desktop">お気に入りの整理</span>
+              <span class="favorites-mobile">お気に入り</span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane show active" id="other-sites-category-wrap" aria-labelledby="tab-othersites" role="tabpanel">
+
+            <hr />
+
+            <div id="otherSiteSearch">
+              <label for="search-all-sites">サイトを検索</label>
+              <input type="text" id="search-all-sites" maxlength="50">
+            </div>
+            <div id="all-sites-no-search-results" class="is-hidden">検索結果が見つかりませんでした</div>
+
+            <div class="moresites-left-col">
+                                                <div class="fav-sites-term fav-sites-card card mb-2">
+                    <div class="card-header">
+                                          <h3 class="card-title">
+                        <span>令和8年度 2026 Semesters</span>
+                        <button class="favorites-select-all-none icon-button ms-1"
+                            title="令和8年度 2026 Semesters学期のすべてのサイトをお気に入りにする"
+                            aria-label="令和8年度 2026 Semesters学期のすべてのサイトをお気に入りにする">
+                          <i class="si si-pin-fill" style="display: none"></i>
+                          <i class="si si-pin" style="display: none"></i>
+                        </button>
+                      </h3>
+                                        </div>
+
+                    <div class="card-body">
+                        <ul class="other-sites-category-list favorite-site-list" role="presentation">
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-5059-000" title="[2026前期月４]機械設計演習１（機）">
+                  <span class="fullTitle">[2026前期月４]機械設計演習１（機）</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-5059-000"
+          title="お気に入りサイトとして [2026前期月４]機械設計演習１（機） をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期月４]機械設計演習１（機） をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-5143-000" title="[2026前期木２]流体力学２（機）">
+                  <span class="fullTitle">[2026前期木２]流体力学２（機）</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-5143-000"
+          title="お気に入りサイトとして [2026前期木２]流体力学２（機） をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期木２]流体力学２（機） をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-5008-000" title="[2026前期水３]材料基礎学１（機宇）">
+                  <span class="fullTitle">[2026前期水３]材料基礎学１（機宇）</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-5008-000"
+          title="お気に入りサイトとして [2026前期水３]材料基礎学１（機宇） をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期水３]材料基礎学１（機宇） をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-5056-000" title="[2026前期水４]機械システム工学実験１（機）">
+                  <span class="fullTitle">[2026前期水４]機械システム工学実験１（機）</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-5056-000"
+          title="お気に入りサイトとして [2026前期水４]機械システム工学実験１（機） をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期水４]機械システム工学実験１（機） をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-2065-000" title="[2026前期火２]工業数学Ｆ２（機：学番奇数）">
+                  <span class="fullTitle">[2026前期火２]工業数学Ｆ２（機：学番奇数）</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-2065-000"
+          title="お気に入りサイトとして [2026前期火２]工業数学Ｆ２（機：学番奇数） をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期火２]工業数学Ｆ２（機：学番奇数） をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-888-HA01-106" title="[2026前期火３]外国文献研究（全・英）-E1">
+                  <span class="fullTitle">[2026前期火３]外国文献研究（全・英）-E1</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-888-HA01-106"
+          title="お気に入りサイトとして [2026前期火３]外国文献研究（全・英）-E1 をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期火３]外国文献研究（全・英）-E1 をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                        <li class="fav-sites-entry  ">
+
+    <div class="fav-title ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/2026-110-5073-000" title="[2026前期金２]統計熱力学">
+                  <span class="fullTitle">[2026前期金２]統計熱力学</span>
+              </a>
+    </div>
+
+          <button class="site-favorite-btn icon-button float-end"
+          data-site-id="2026-110-5073-000"
+          title="お気に入りサイトとして [2026前期金２]統計熱力学 をトグル"
+          aria-pressed="true"
+          data-pinned-state="pinned"
+          aria-label="お気に入りサイトとして [2026前期金２]統計熱力学 をトグル">
+        <i class="si si-pin" style="display:  none "></i>
+        <i class="si si-pin-fill" style="display: inline "></i>
+      </button>
+      </li>
+                                                  </ul>
+                    </div>
+                  </div>
+                                                                        </div>
+
+            <div class="moresites-right-col">
+                                                                              <div class="fav-sites-card card mb-2">
+                    <div class="card-header">
+                      <h3 class="card-title">
+                        <span>その他</span>
+                        <button class="favorites-select-all-none icon-button ms-1"
+                            title="その他学期のすべてのサイトをお気に入りにする"
+                            aria-label="その他学期のすべてのサイトをお気に入りにする">
+                          <i class="si si-pin-fill" style="display: none"></i>
+                          <i class="si si-pin" style="display: none"></i>
+                        </button>
+                      </h3>
+                    </div>
+                    <div class="card-body">
+                      <ul class="other-sites-category-list favorite-site-list" role="presentation">
+                        <!-- anchor "my workspace" to the top of the list -->
+                                                                                <li class="fav-sites-entry is-selected  my-workspace ">
+
+    <div class="fav-title  fav-title-myworkspace ">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site-reset/%7Ea0242607" title="Home">
+                  <span class="bi-house-fill" aria-hidden="true"></span><span class="fullTitle">ホーム</span>
+              </a>
+    </div>
+
+      </li>
+                                                  
+                                                                                                </ul>
+                    </div>
+                  </div>
+                                          </div>
+
+          </div><!--  end of #other-sites-category-wrap -->
+
+          <div class="tab-pane" id="organize-favorites" aria-labelledby="tab-favorites" role="tabpanel">
+            <div id="organize-favorites-pane">
+
+              <p id="pinned-to-show">順番を変更するにはサイトをドラッグして下さい．お気に入りバーには 10 サイトまで表示できます．</p>
+
+              <p class="d-none sak-banner-info mt-3" id="no-pinned-to-show">お気に入りサイトがありません．お気に入りサイトに追加するには"マイサイト"メニューにあるサイトに星をつけて下さい．</p>
+
+              <ul id="organize-favorites-list" class="favorite-site-list">
+                                                    <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-5059-000" data-sortable-id="2026-110-5059-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期月４]機械設計演習１（機）">
+                      [2026前期月４]機械設計演習１（機）
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-5056-000" data-sortable-id="2026-110-5056-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期水４]機械システム工学実験１（機）">
+                      [2026前期水４]機械システム工学実験１（機）
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-888-HA01-106" data-sortable-id="2026-888-HA01-106">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期火３]外国文献研究（全・英）-E1">
+                      [2026前期火３]外国文献研究（全・英）-E1
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-5008-000" data-sortable-id="2026-110-5008-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期水３]材料基礎学１（機宇）">
+                      [2026前期水３]材料基礎学１（機宇）
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-5073-000" data-sortable-id="2026-110-5073-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期金２]統計熱力学">
+                      [2026前期金２]統計熱力学
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-5143-000" data-sortable-id="2026-110-5143-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期木２]流体力学２（機）">
+                      [2026前期木２]流体力学２（機）
+                      </div>
+                    </div>
+                  </li>
+                                                                      <li class="organize-favorite-item" tabindex="0" data-site-id="2026-110-2065-000" data-sortable-id="2026-110-2065-000">
+                    <div>
+                      <div class="pinned-drag-handle">
+                        <i class="si si-drag-handle"></i>
+                      </div>
+                      <div class="ms-2 text-truncate" title="[2026前期火２]工業数学Ｆ２（機：学番奇数）">
+                      [2026前期火２]工業数学Ｆ２（機：学番奇数）
+                      </div>
+                    </div>
+                  </li>
+                                                </ul>
+            </div>
+          </div>
+        </div><!-- end of tab-content -->
+      </div>
+    </div>
+  </div>
+
+                        
+
+<!-- START VM includeSiteNav.vm -->
+<aside id="portal-nav-sidebar" class="d-none portal-nav-sidebar overflow-auto " tabindex="-1" data-bs-backdrop="true" aria-labelledby="">
+    <div class="offcanvas-header d-md-none">
+        <h2 class="offcanvas-title">サイト</h2>
+        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close the sites sidebar"></button>
+    </div>
+    <nav id="toolMenu" role="navigation" aria-label="ツール一覧はここから始まります" class="Mrphs-toolsNav__menu sakai-sitesAndToolsNav h-100 d-flex flex-column">
+        <h2 class="visually-hidden d-none d-md-block" id="totoolmenu">サイト</h2>
+                    <div class="sites-section">
+                <ul class="mb-0">
+                    
+    
+        
+        
+    <li id="site-list-home-item-4ea855ea-a5e2-463c-8306-0719cf37a613" class="site-list-item py-1 is-current-site mt-2 fw-bold" data-type="home" data-site="~4ea855ea-a5e2-463c-8306-0719cf37a613">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="~4ea855ea-a5e2-463c-8306-0719cf37a613"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#home-site-4ea855ea-a5e2-463c-8306-0719cf37a613-page-list"
+                        aria-expanded="true"
+                        title="ツールリストを畳む"
+                        aria-controls="home-site-4ea855ea-a5e2-463c-8306-0719cf37a613-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613" class="sidebar-site-title" title="Home">Home</a>
+
+            </div>
+                    </div>
+        <div id="home-site-4ea855ea-a5e2-463c-8306-0719cf37a613-page-list" data-site-id="~4ea855ea-a5e2-463c-8306-0719cf37a613" class="site-list-item-collapse collapse  show ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 selected-page" data-page-id="adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/page-reset/adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005"
+                title="概要: きょうのシステムメッセージを表示 | ユーザのホームに関する情報を表示するためのツールです． | ホームのカレンダーイベントの概要を表示 | メッセージが投稿され次第更新される最近のお知らせを表示 | すべてのサイトまたはある特定のサイトに関するディスカッションやフォーラムトピックの未読のメッセージを表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-motd" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="1f20500d-3073-4342-9af2-0c07d7ec16e1"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/24421b00-263a-418b-940b-3ccdf4aa777c"
+                title="メンバーシップ: 参加することができるサイトでのメンバシップを表示したり修正したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-membership" aria-hidden="true"></i>
+                    <span class="me-2">メンバーシップ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="b8639365-8b72-4d52-9b32-d72f6455789b"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/1defcac7-04c5-4ce0-b127-556d2d3b15db"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="b87ca0f3-a910-475a-8a33-6075d3ba418f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/f34d89cd-7711-422c-83bd-39ac0cae978f"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="34d16117-f3c9-41f2-bddf-2955ae1b9c48"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/83b540a3-3bc9-4857-b96a-ed0e25be6f13"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="45b54158-558b-4915-8feb-ac5210a6e112"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/bc3566e7-efdf-4e9a-8572-04033f3393cd"
+                title="サイトセットアップ: サイトを修正したり新しいサイトを作成したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-sitesetup" aria-hidden="true"></i>
+                    <span class="me-2">サイトセットアップ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="cef43660-536e-4c85-a739-dbb6033e0d70"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/c63fd8c9-e848-47b8-ad3c-45dbf0e142a3"
+                title="設定: ユーザの設定を表示したり修正したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-preferences" aria-hidden="true"></i>
+                    <span class="me-2">設定</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="7edf3254-cfec-4953-8b17-0dd473dd0210"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/01a8646a-b067-46d2-b7f8-4a8f2befa49d"
+                title="アカウント: ユーザプロフィールを表示したり修正した入りするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-singleuser" aria-hidden="true"></i>
+                    <span class="me-2">アカウント</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="0caa47c6-ddec-4fda-9d71-79213e3eeb9f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/~4ea855ea-a5e2-463c-8306-0719cf37a613/tool-reset/ff4986c8-2ade-4a9d-b1ab-159c0b904dd6"
+                title="ダッシュボード: 最新のお知らせ，リソース，課題，カレンダーイベントなどをホームにまとめて表示します">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-dashboard" aria-hidden="true"></i>
+                    <span class="me-2">ダッシュボード</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                </ul>
+            </div>
+            <div class="sites-section pinned-site-section">
+                <h3 class="sites-section-heading ">ピン留め</h3>
+                <ul id="pinned-site-list" class="mb-0 ">
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-5059-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-5059-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-5059-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-5059-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-5059-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000" class="sidebar-site-title" title="[2026前期月４]機械設計演習１（機）">[2026前期月４]機械設計演習１（機）</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-5059-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期月４]機械設計演習１（機）"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-5059-000-page-list" data-site-id="2026-110-5059-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="424bf348-2263-4eb5-9e77-cf95a87cc0a3"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/page/424bf348-2263-4eb5-9e77-cf95a87cc0a3"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="dddb5855-264f-49e2-9b1e-a82eddfefa3b"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/97d99555-8a83-45a0-bb3a-386731c40a8b"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="c330d20e-baed-4968-b789-aa736c2a2c4a"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/68aa5c24-8535-4ad9-bdfd-36e28c97b9e2"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="df90cace-080d-44e3-9e83-1c631eb4f0c5"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/4678143d-9094-45fa-ba27-dc0c0f929939"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="fa7685bc-cfdb-476c-9a84-e393d5815c30"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/a5dbebfc-7921-4fd4-bf04-959d5de7b700"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="0b521fc2-2427-4767-bd15-61f5d80c2b63"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/e3bd3016-70a6-40c5-b315-5b1f77926ff3"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="df63614d-2ae0-4e5d-9a6c-10facec915f5"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/0fe49db1-e75f-40f0-ad7a-8e0f645fd2ff"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="c4f5ef72-a1e8-45cd-b214-94aa9abeffd3"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5059-000/tool/862c3437-d546-4a08-9af5-6cd8f5aed8a7"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-5056-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-5056-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-5056-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-5056-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-5056-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000" class="sidebar-site-title" title="[2026前期水４]機械システム工学実験１（機）">[2026前期水４]機械システム工学実験１（機）</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-5056-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期水４]機械システム工学実験１（機）"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-5056-000-page-list" data-site-id="2026-110-5056-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="0c3e9949-7aa0-4920-9ee5-c9aeb6705f85"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/page/0c3e9949-7aa0-4920-9ee5-c9aeb6705f85"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="139da5a7-8920-4c93-a004-66195e184f7f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/1cbf5da5-771e-4ead-a545-3f50eee11d28"
+                title="第１章: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">第１章</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="55022597-527a-4d82-9206-66d10f4a677d"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/b32e7569-7c87-43bf-8a31-8a8502ccaf42"
+                title="第５章: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">第５章</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="36282169-9525-4485-bb6e-07d4e79f04ec"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/3ea67b91-d70f-4b6f-b645-7e88f1de5fb1"
+                title="第７章: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">第７章</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="a675af96-b47e-4a70-a292-dfd14db92f94"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/eb8afce5-e108-4440-9cc5-2b62f738f0ae"
+                title="第１０章: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">第１０章</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="b6e7c4f9-a854-452f-b46f-712caa389dff"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/81c8eff0-5c5f-4f3f-a6b1-be8b67c36059"
+                title="第１１章: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">第１１章</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="5b42f589-f879-4b8f-8ae5-a88b143d3d79"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/20aa5356-728c-4dd9-b7a4-f74734955de7"
+                title="計測工学演習: 週ごとや授業回ごとなどで，教材の構成や学習の順序を作成し配信するツールです">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-lessonbuildertool" aria-hidden="true"></i>
+                    <span class="me-2">計測工学演習</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="c885b9a9-a09c-4e3a-82dd-95a2120623ab"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/ba5a29f8-20ea-4ccf-8ffa-c30df340d886"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="c793a019-962c-4f53-9acb-b39b1e298bb0"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/99234e7d-d12e-4c32-a020-15bbef80afd6"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="7ed2e6fc-44bc-4da8-9076-6f89666ee3d0"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/b7302875-41aa-42c1-9001-6918313c33ef"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="ace15998-34b4-4337-bf2f-4c22f9309979"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/edb19150-2703-4428-9389-c98dd5fb8411"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="3595542f-0344-4dd9-97ee-cc4a5516ff78"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/e9ea4a44-569a-43c9-b1ad-b5f58c8f0903"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="69df6e01-ec9d-4c55-8b00-506f4a0bfd28"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/72d8cb54-2b42-4e80-b2d7-78e2cae192bc"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="190cbe29-3b42-4322-a53b-e8113af77c3f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5056-000/tool/9dfca004-520f-4bbf-b005-9834177a83e4"
+                title="メール: サイトの参加者を選択してメールを送信します．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailtool" aria-hidden="true"></i>
+                    <span class="me-2">メール</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-888-HA01-106" class="site-list-item py-1 " data-type="pinned" data-site="2026-888-HA01-106">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-888-HA01-106"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-888-HA01-106-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-888-HA01-106-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106" class="sidebar-site-title" title="[2026前期火３]外国文献研究（全・英）-E1">[2026前期火３]外国文献研究（全・英）-E1</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-888-HA01-106"
+                        data-pinned="true"
+                        data-site-title="[2026前期火３]外国文献研究（全・英）-E1"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-888-HA01-106-page-list" data-site-id="2026-888-HA01-106" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="e7b3f021-63bc-4e5e-9e1b-74eb2381ebd9"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/page/e7b3f021-63bc-4e5e-9e1b-74eb2381ebd9"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="d6c2040c-fd71-4658-8c80-b513fcc48fab"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/c47bfde4-354e-4ee6-a875-617532a93a1c"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="24255e16-0fa3-4b90-bcd8-4746689ef560"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/46f450cd-59c8-46cd-86cf-bdf29b1dbc84"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="f15e688f-50c5-44e0-b96a-2b8cb0941854"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/967f900f-4ecf-46f8-ad15-81c0296e6033"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="0b5b81e9-e81f-4026-a0db-09cb05895c21"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/4634a84b-05bc-4b4c-bbb5-629b648b1c53"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="e90788ad-edaf-4e7e-87c6-e619400607a0"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/4bfaa27e-82e2-40b6-bf88-dccd3d4ac907"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="3f3a86bb-987e-4c3d-9b6a-4d68402126b5"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/193ce0d3-6271-4a34-a371-b8fd5f373345"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="0a511e7d-7072-43b3-9e7c-6f09a9b97a75"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-888-HA01-106/tool/2fd3fcc3-fca7-410f-9eb0-05e9561d4530"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-5008-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-5008-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-5008-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-5008-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-5008-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000" class="sidebar-site-title" title="[2026前期水３]材料基礎学１（機宇）">[2026前期水３]材料基礎学１（機宇）</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-5008-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期水３]材料基礎学１（機宇）"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-5008-000-page-list" data-site-id="2026-110-5008-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="7a685658-083a-4319-96a0-9e3421ea5d83"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/page/7a685658-083a-4319-96a0-9e3421ea5d83"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="83de2d58-ec7f-43bb-9543-219bb1e35f98"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/509dbe31-f969-4dbd-9299-65a582dcdc28"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="32108c50-640b-4f98-805f-9ebe21cb5b4c"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/f71584d2-25db-4c17-b619-5c63dac37124"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="ef18938b-9a2b-44f6-a791-189b0fe38a87"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/198ed4a0-3a7d-4d9e-9d49-c449b864d479"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="5be1e612-7473-47da-a5c0-6b3413497598"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/f46b7b8c-6514-403f-b7c6-cb5dcb2916e8"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="5bb55d9b-0017-4289-a0fc-0856d6b91d19"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/5a458b44-acd2-45ab-be11-109774c5e4ea"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="699c26d5-5ddd-4256-b0f2-ff72c818d1f7"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/cca92fa4-9c66-406b-bcd2-f383edff8e83"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="42e81e1e-1630-4d83-8b3e-d507e291deab"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5008-000/tool/54bf7dd5-c071-4c03-9548-01c36d9e86bc"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-5073-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-5073-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-5073-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-5073-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-5073-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000" class="sidebar-site-title" title="[2026前期金２]統計熱力学">[2026前期金２]統計熱力学</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-5073-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期金２]統計熱力学"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-5073-000-page-list" data-site-id="2026-110-5073-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="3ff90ed4-8916-4ce5-b040-10a0597daa47"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/page/3ff90ed4-8916-4ce5-b040-10a0597daa47"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="2d38d3eb-f4b3-4aa2-b6f6-fcf41f34c813"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/3911b005-dd2f-4916-bab8-0fe797f4bc68"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="a1ab7e75-462e-4360-82a6-0be91d51841d"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/7909516d-1b08-49ba-8903-6e004d7cec78"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="d021c723-2101-4eb3-9f9b-5fbef259dc10"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/29cf5c5d-5783-431e-ab7d-8571cffe4127"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="84008757-ebe3-4c17-a732-52e9f04c02d7"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/d7bd25bc-fb07-470f-b522-0f1b0b457b17"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="3f72f91d-62f6-4108-b1fd-954e97b7d3c2"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/d343af65-b93f-4c6f-b110-4fd35a6cafd6"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="050195c5-5e90-4e5f-86fa-ef9922565a68"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/1f5080e6-706c-48f8-834c-a1925076722a"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="2119cac2-961f-469c-ae8f-357596afd3ec"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5073-000/tool/352600a4-50fe-4db0-a3e8-a34d3968b132"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-5143-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-5143-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-5143-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-5143-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-5143-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000" class="sidebar-site-title" title="[2026前期木２]流体力学２（機）">[2026前期木２]流体力学２（機）</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-5143-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期木２]流体力学２（機）"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-5143-000-page-list" data-site-id="2026-110-5143-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="4ed9d075-4cc3-4593-a9ff-b8ec345a27db"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/page/4ed9d075-4cc3-4593-a9ff-b8ec345a27db"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="683bc89d-f00a-40f0-af08-5219dd94d230"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/e698e67d-cac1-488b-a2bb-fe2e18bab363"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="18779e68-1147-46b7-bb85-2daefb291d2f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/4fcc10fa-266d-4cf0-91a2-c3ce80e904ba"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="1c033e13-8256-4ced-8071-6637b9635c93"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/ddb5e60b-d6c4-4e17-a84d-a78051a2b0c6"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="75c7f90c-71b9-4409-b39f-70d8a7454dbe"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/dc8a60fd-d422-4391-8fe0-70f6e0c1c7fb"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="4599cc78-3826-458f-9c6d-0cb542983c31"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/5b65c78c-1d67-40fd-bd56-e49c10fd0d1d"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="5117af5a-7326-456f-aced-70d05d0849f1"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/9a8f4a2d-5e25-45f2-99fa-aef4982512e6"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="ab179a81-457f-47c6-866a-dcca20116826"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-5143-000/tool/9d76ee31-5827-4c05-bfef-59257412bd66"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                            
+    
+        
+        
+    <li id="site-list-pinned-item-2026-110-2065-000" class="site-list-item py-1 " data-type="pinned" data-site="2026-110-2065-000">
+        <div class="site-list-item-head d-flex align-items-center pe-2 py-1 w-100 justify-content-between">
+            <div class="site-link-block d-flex align-items-center rounded-end me-1 pe-2">
+                <button class="btn icon-button collapsed me-1"
+                        data-site-id="2026-110-2065-000"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pinned-site-2026-110-2065-000-page-list"
+                        aria-expanded="false"
+                        title="ツールリストを展開"
+                        aria-controls="pinned-site-2026-110-2065-000-page-list">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                
+                                                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000" class="sidebar-site-title" title="[2026前期火２]工業数学Ｆ２（機：学番奇数）">[2026前期火２]工業数学Ｆ２（機：学番奇数）</a>
+
+            </div>
+                                                <button class="d-inline-block p-1 site-opt-pin btn btn-transparent bi si si-pin-fill"
+                        data-pin-site="2026-110-2065-000"
+                        data-pinned="true"
+                        data-site-title="[2026前期火２]工業数学Ｆ２（機：学番奇数）"
+                        title="ピン留めを外す"
+                        aria-label="ピン留めを外す">
+                    </button>
+                                    </div>
+        <div id="pinned-site-2026-110-2065-000-page-list" data-site-id="2026-110-2065-000" class="site-list-item-collapse collapse ">
+            <ul class="site-page-list nav flex-column py-1 mb-2">
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="e41f564b-e406-4e4f-a70e-8b15347a7187"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/page/e41f564b-e406-4e4f-a70e-8b15347a7187"
+                title="概要: サイト情報を表示するためのツールです． | メッセージが投稿され次第更新される最近のお知らせを表示 | ホームのカレンダーイベントの概要を表示">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-iframe-site" aria-hidden="true"></i>
+                    <span class="me-2">概要</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="7f64cb5e-4f20-4338-aed4-0b40fffc622a"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/516280ae-3cc0-49f9-9cf5-83544d19c905"
+                title="カレンダー: 締切やイベントなどを投稿したり表示したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-schedule" aria-hidden="true"></i>
+                    <span class="me-2">カレンダー</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="b4feb0b6-2716-4ed8-9e3a-2ccc5ea27ce2"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/a3e7c258-e95a-4266-ada9-67dfc361573d"
+                title="お知らせ: 最新の情報を時間を決めて投稿するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-announcements" aria-hidden="true"></i>
+                    <span class="me-2">お知らせ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="6f56aa6e-1dfc-4674-a021-242815b1607f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/733906b7-ed91-4b6c-a588-0350becb44c0"
+                title="授業資料（リソース）: サイトファイルを作成，アップロード，整理，表示するためのツールです．サイト全体で使用される文書や URL を含みます．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-resources" aria-hidden="true"></i>
+                    <span class="me-2">授業資料（リソース）</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="6f498973-a99d-43c5-8d87-756653bb8394"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/2cc395b5-0ad7-4bdb-a404-4666758879fa"
+                title="課題: オンラインで課題を投稿したり，提出したり，採点したりするためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-assignment-grades" aria-hidden="true"></i>
+                    <span class="me-2">課題</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="12452893-e35d-48d0-9654-1340832f4e5e"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/6215a98e-d541-48dc-b602-444757e096ca"
+                title="成績簿: 成績を保存，計算，表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-gradebookng" aria-hidden="true"></i>
+                    <span class="me-2">成績簿</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="d427ae44-f5f4-4c69-822b-be908fcefe9f"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/3b72211f-f7e0-4d6f-bcb1-5a14b94c274c"
+                title="メールアーカイブ: サイトに送信されたメールを表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-mailbox" aria-hidden="true"></i>
+                    <span class="me-2">メールアーカイブ</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                                                                
+    <li class="nav-item">
+        <a class="btn btn-nav w-100 ps-4 " data-page-id="1d99a532-ff50-4fd4-94ca-a60fd0781f2d"
+                href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/2026-110-2065-000/tool/cf11b35f-16ef-41f9-8428-b641c8a2d2e5"
+                title="サイト情報: ワークサイト情報やサイト参加者を表示するためのツールです．">
+            <div class="d-flex text-start align-items-center">
+                <div class="d-flex me-auto rounded-end">
+                    <i class="me-1 si si-sakai-siteinfo" aria-hidden="true"></i>
+                    <span class="me-2">サイト情報</span>
+                </div>
+                <div class="me-1">
+                                                </div>
+            </div>
+        </a>
+    </li>
+                        </ul>
+        </div>
+    </li>
+                                    </ul>
+                                <div id="sites-no-pinned-label" class="ms-3  d-none ">ピン留めされたサイトはありません</div>
+                            </div>
+            <div class="sites-section d-none">
+                <h3 class="sites-section-heading ">最近</h3>
+                <ul id="recent-site-list" class="mb-0">
+                                    </ul>
+            </div>
+            </nav>
+
+        <div class="sticky-footer w-100 d-flex justify-content-around">
+        <button id="sakai-view-all-sites"
+                type="button"
+                class="btn btn-transparent py-3"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#select-site-sidebar"
+                aria-controls="select-site-sidebar"
+                title="Open the view all sites sidebar"
+                aria-label="すべてのサイトを表示"
+                title="すべてのサイトを表示">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="si si-all-sites" viewBox="0 0 16 16">
+                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"></path>
+            </svg>
+            <span class="ps-1">すべてのサイトを表示</span>
+        </button>
+    </div>
+    
+</aside>
+
+<script>
+    // focus the current tool on load and prepare site description popovers
+    window.addEventListener('load', () => {
+        document.querySelector('.selected-page')?.scrollIntoView({behavior:'auto', block: 'center'});
+
+        // put the focus back on the portal wrapper so that keyboard navigation works
+        setTimeout(function() {
+            // Preserve focus on login fields if they're currently active
+            if (!["eid", "pw"].includes(document.activeElement?.id)) {
+                document.querySelector('.Mrphs-portalWrapper').focus();
+            }
+        }, 50);
+
+        [...document.querySelectorAll('[data-bs-toggle="popover"]')].forEach((el) => {
+            let opts = {
+                animation: false,
+            };
+            if (el.hasAttribute('data-bs-content-id')) {
+	        opts.content = document.getElementById(el.getAttribute('data-bs-content-id')).innerHTML;
+	        opts.html = true;
+                new bootstrap.Popover(el, opts);
+            }
+        })
+    });
+</script>
+<!-- END VM includeSiteNav.vm -->
+
+                        
+
+    
+
+ 
+            <!-- START VM includePage.vm -->
+
+<div class="portal-main-container container-fluid mt-2">
+    <main id="content" class="portal-main-content Mrphs-multipleTools " role="main" tabindex="-1">
+        <h1 class="skip visually-hidden" tabindex="-1" id="tocontent">コンテンツはここから始まります</h1>
+        <nav class="sakai-pageNav" aria-label="ツールサブナビゲーション">
+    <ol class="breadcrumb mb-2">
+
+             
+                            <li class="Mrphs-hierarchy--siteName breadcrumb-item d-md-none" title="[2026前期火２]工業数学Ｆ２（機：学番奇数）">
+                <a class="text-decoration-none" href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/page-reset/adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005">
+                    <small>ホーム</small>
+                </a>
+            </li>
+                                                                                                            
+    
+                        <li class="breadcrumb-item d-md-none">
+                <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/page-reset/adbd5a8a-d2ae-4707-bfc4-5c5c37e0c005" title="ツールホーム" class="Mrphs-hierarchy-item Mrphs-hierarchy--toolName text-decoration-none">
+                    <small class="Mrphs-breadcrumb--toolNameText">概要</small>
+                </a>
+            </li>
+                                                    <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/site/%7Ea0242607/tool-reset/bc3566e7-efdf-4e9a-8572-04033f3393cd?sakai_action=doManageOverviewFromHome" title="概要を管理" class="Mrphs-hierarchy-item manage-overview-link d-none d-lg-block ui-priority-secondary">
+                        <span class="fa fa-pencil"></span>概要を管理
+                    </a>
+                                                                                                                            
+    
+     
+    </ol>
+</nav>
+        
+                 <div class="row">
+                <div id="col1of2" class="p-2 col-lg-6 col-md-12">
+
+            
+                
+                                    
+                    <!-- start Tool Container -->
+                    
+                    
+                    <div class="Mrphs-container Mrphs-sakai-motd">
+                    
+                    <!-- start Tool Header -->
+
+                    
+                        
+
+                            <nav class="Mrphs-toolTitleNav Mrphs-container--toolTitleNav align-items-center" aria-label="ツールナビゲーション">
+                                
+                                    <h2 class="Mrphs-toolTitleNav__title"><span class="Mrphs-toolTitleNav__text">今日のメッセージ</span><span class="Mrphs-toolTitleNav__addLeft"></span></h2>
+
+                                 
+                                <div class="Mrphs-toolTitleNav__button_container home">
+
+
+                                 
+                                
+                                    <button class="tool-button-container si si-share link--directurl" rel="#Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_directurl" title="ツールへのダイレクトリンク" aria-haspopup="dialog">
+                                        <span class="Mrphs-itemTitle">リンク</span>
+                                    </button>
+                                    <div id="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_directurl" role="dialog" aria-labelledby="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_directurl__title" class="Mrphs-directUrl Mrphs-directUrl__dropDown">
+                                        <i class="fa fa-times dropDown_close" aria-hidden="true" tabindex="0"></i>
+                                        <label for="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_urlholder" id="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_directurl__title" class="dropDown_title">ツールへのダイレクトリンク</label>
+                                        
+                                            <input tabindex="0" type="checkbox" id="directToolUrl-1" onclick="toggleShortUrlOutput('https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/3ffc8675-6145-46cb-9c8f-0ec30c15b6e5/', this, 'Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_urlholder');" class="Mrphs-directUrl__checkbox"><label for="directToolUrl-1">短縮 URL</label>
+
+                                         
+                                        <textarea name="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_urlholder" id="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_urlholder" tabindex="0" class="Mrphs-directUrl__textarea Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5_urlholder" >https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/3ffc8675-6145-46cb-9c8f-0ec30c15b6e5/</textarea>
+                                    </div>
+
+                                                                 </div>
+
+                            </nav> 
+                         
+                     
+                    <!-- END Tool Header -->
+
+                    <!-- START Tool Body -->
+
+                    
+                        
+
+
+    <div class="Mrphs-toolBody Mrphs-toolBody--sakai-motd">
+        <iframe	name="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5"
+	id="Main3ffc8675x6145x46cbx9c8fx0ec30c15b6e5"
+	title="今日のメッセージ "
+	class ="portletMainIframe"
+	height="475"
+	width="100%"
+	frameborder="0"
+	marginwidth="0"
+	marginheight="0"
+	scrolling="auto" allowfullscreen="allowfullscreen" allow="autoplay *;fullscreen *;encrypted-media *;camera 'self';microphone 'self'"
+	src="https://lms.gakusei.kyoto-u.ac.jp/portal/tool/3ffc8675-6145-46cb-9c8f-0ec30c15b6e5?panel=Main">
+</iframe>
+    </div>
+
+ 
+                     
+                    <!-- end Tool Body -->
+                    
+                    </div>
+
+                    <!-- end Tool Container -->
+
+                 
+            
+                
+                                    
+                    <!-- start Tool Container -->
+                    
+                    
+                    <div class="Mrphs-container Mrphs-sakai-iframe-myworkspace">
+                    
+                    <!-- start Tool Header -->
+
+                    
+                        
+
+                            <nav class="Mrphs-toolTitleNav Mrphs-container--toolTitleNav align-items-center" aria-label="ツールナビゲーション">
+                                
+                                    <h2 class="Mrphs-toolTitleNav__title"><span class="Mrphs-toolTitleNav__text">ホーム情報表示</span><span class="Mrphs-toolTitleNav__addLeft"></span></h2>
+
+                                 
+                                <div class="Mrphs-toolTitleNav__button_container home">
+
+
+                                
+                                    <a class="tool-button-container si si-edit __link--edit" accesskey="e" id="jsr-edit" href="https://lms.gakusei.kyoto-u.ac.jp/portal?org.sakaiproject.portal.pluto.PORTLET_STATE=I1Nha2FpIFBvcnRsZXQgU3RhdGUKI1RodSBBcHIgMDkgMTE6MDA6MzkgSlNUIDIwMjYKby5zLnAuci5zLldJTkRPV19TVEFURT1ub3JtYWwKby5zLnAuci5zLkFDVElPTj1mYWxzZQpvLnMucC5yLnMuUE9SVExFVF9NT0RFPWVkaXQKby5zLnAuci5zLklEPTRmYTZjMDYxLTdhNTQtNGY3Yy04MmUzLTEzNzU1ZDllM2E0YQpvLnMucC5yLnMuU0VDVVJFPWZhbHNlCg__" title="編集">
+                                        <span class="Mrphs-itemTitle">編集</span>
+                                    </a>
+
+                                 
+                                
+                                    <button class="tool-button-container si si-share link--directurl" rel="#_self_directurl" title="ツールへのダイレクトリンク" aria-haspopup="dialog">
+                                        <span class="Mrphs-itemTitle">リンク</span>
+                                    </button>
+                                    <div id="_self_directurl" role="dialog" aria-labelledby="_self_directurl__title" class="Mrphs-directUrl Mrphs-directUrl__dropDown">
+                                        <i class="fa fa-times dropDown_close" aria-hidden="true" tabindex="0"></i>
+                                        <label for="_self_urlholder" id="_self_directurl__title" class="dropDown_title">ツールへのダイレクトリンク</label>
+                                        
+                                            <input tabindex="0" type="checkbox" id="directToolUrl-2" onclick="toggleShortUrlOutput('https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/4fa6c061-7a54-4f7c-82e3-13755d9e3a4a/', this, '_self_urlholder');" class="Mrphs-directUrl__checkbox"><label for="directToolUrl-2">短縮 URL</label>
+
+                                         
+                                        <textarea name="_self_urlholder" id="_self_urlholder" tabindex="0" class="Mrphs-directUrl__textarea _self_urlholder" >https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/4fa6c061-7a54-4f7c-82e3-13755d9e3a4a/</textarea>
+                                    </div>
+
+                                                                 </div>
+
+                            </nav> 
+                         
+                     
+                    <!-- END Tool Header -->
+
+                    <!-- START Tool Body -->
+
+                    
+                        
+
+
+    <div class="Mrphs-toolBody Mrphs-toolBody--sakai-iframe-myworkspace">
+        <div class="portletBody">
+<script type="text/javascript">
+var needJQuery = true;
+if ( window.jQuery ) {
+       tver = jQuery.fn.jquery;
+       if ( tver.indexOf('1.12.') == 0 ) {
+               window.console && console.log('PortletIFrame PortalUtils.includeLatestJquery() detected jQuery '+tver);
+               needJQuery = false;
+       } else {
+               var overrideJQuery = true;
+               window.console && console.log('PortletIFrame PortalUtils.includeLatestJquery() found jQuery '+tver);
+       }
+}
+if ( needJQuery ) {
+   document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery/1.12.4/jquery.min.js?version=kulms">'+'\x3C/script>')
+   document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-migrate/1.4.1/jquery-migrate.min.js?version=kulms">'+'\x3C/script>')
+   document.write('\x3Cscript type="text/javascript" src="">'+'\x3C/script>')
+   document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js?version=kulms">'+'\x3C/script>')
+   document.write('\x3Clink rel="stylesheet" href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css?version=kulms"/>')
+} else { 
+   window.console && console.log('jQuery already loaded '+jQuery.fn.jquery+' in '+'PortletIFrame');
+   if (typeof jQuery.migrateWarnings == 'undefined') {
+           document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery/jquery-migrate-1.4.1.min.js?version=kulms">'+'\x3C/script>')
+           window.console && console.log('Adding jQuery migrate');
+   }
+   if ( typeof jQuery.fn.popover == 'undefined') {
+           window.console && console.log('Adding Bootstrap');
+   }
+   if (typeof jQuery.ui == 'undefined') {
+           document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js?version=kulms">'+'\x3C/script>')
+           document.write('\x3Clink rel="stylesheet" href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css?version=kulms"/>')
+           window.console && console.log('Adding jQuery UI');
+   }
+}
+</script>
+<script type="text/javascript">
+if ( needJQuery ) {
+       window.console && console.log('PortletIFrame PortalUtils.includeLatestJquery() loaded jQuery+migrate+Bootstrap+UI '+$.fn.jquery);
+}
+$PBJQ = jQuery;
+</script>
+
+<script type="text/javascript" language="JavaScript">
+$(document).ready(function() {
+$('.closeMe a').click(function(e){
+    e.preventDefault();
+    $(this).closest('.alertMessage').fadeOut('slow')
+});
+})
+
+if ( '/access/content/group/kyotocontents/public/myworkspace_info.html'.indexOf('http://') == 0 || '/access/content/group/kyotocontents/public/myworkspace_info.html'.indexOf('https://') == 0 ) {
+
+    function timeout4fa6c061_7a54_4f7c_82e3_13755d9e3a4a() { 
+        var myframe = $("#id4fa6c061_7a54_4f7c_82e3_13755d9e3a4a");
+        var loaded = false;
+        window.console && console.debug("/access/content/group/kyotocontents/public/myworkspace_info.html timeout check...");
+        try {
+            var iframeLoc = myframe.get(0).contentWindow.location;
+            iframeLoc = String(iframeLoc);
+            var windowLoc = String(window.location);
+            window.console && console.debug("iframe.location="+windowLoc);
+            var ipos = -1;
+            var slashcount = 0;
+            for (var i=0; i<windowLoc.length; i++ ) {
+                if ( windowLoc[i] == '/' ) slashcount++;
+                if ( slashcount == 3 ) {
+                    ipos = i;
+                    break;
+                }
+            }
+            if ( ipos == -1 ) {
+                loaded = false;
+            } else { 
+                var prefix = windowLoc.substring(0, ipos);
+                window.console && console.debug("iframe.prefix="+prefix);
+                loaded = iframeLoc.indexOf(prefix) == 0;
+            }
+        } catch(ex) {  // This is an expected/normal/hoped for occurance
+            loaded = true;
+        }
+        if ( ! loaded ) {
+            $('#alert4fa6c061_7a54_4f7c_82e3_13755d9e3a4a').show();
+        } else {
+            window.console && console.debug('/access/content/group/kyotocontents/public/myworkspace_info.html load success');
+        }
+
+    }
+
+    var timer4fa6c061_7a54_4f7c_82e3_13755d9e3a4a = false;
+    $(document).ready(function() {
+        timer4fa6c061_7a54_4f7c_82e3_13755d9e3a4a = window.setTimeout("timeout4fa6c061_7a54_4f7c_82e3_13755d9e3a4a()",8000);
+    });
+} else {
+    window.console && console.debug('/access/content/group/kyotocontents/public/myworkspace_info.html does not start with http:// or https://');
+}
+</script>
+<div class="alertMessage specialLink" style="display:none" id="alert4fa6c061_7a54_4f7c_82e3_13755d9e3a4a">警告: 
+このページは不具合がロードされると表示されます．
+<a href="/access/content/group/kyotocontents/public/myworkspace_info.html" onclick="window.open('/access/content/group/kyotocontents/public/myworkspace_info.html','_blank'); return false;" target="_blank">新しいウィンドウに開かれたページ</a>
+<p class="closeMe"><a href="#" style="text-decoration:none !important;font-size:110%;color:#c00 !important" title="クリックして終わります">x <span class="skip">クリックして終わります</span></a></p> 
+</div>
+<div class="wcwomenu"> <iframe 
+    id="id4fa6c061_7a54_4f7c_82e3_13755d9e3a4a"
+    title="ホーム情報メッセージ"
+    width="100%"
+    style="width:100%;height:1200px"
+    frameborder="0"
+    marginwidth="0"
+    marginheight="0"
+    scrolling="auto"
+    allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+    allow="autoplay *;fullscreen *;encrypted-media *;camera 'self';microphone 'self'"
+    src="/access/content/group/kyotocontents/public/myworkspace_info.html">
+</iframe>
+<script>
+window.addEventListener('message', function(e) {
+  try {
+    var message = JSON.parse(e.data);
+    var idval = 'id4fa6c061_7a54_4f7c_82e3_13755d9e3a4a';
+    if ( message.subject == 'lti.frameResize' ) {
+      var height = message.height;
+      document.getElementById(idval).height = height;
+      console.debug('Reveived lti.frameResize height='+height);
+    }
+  } catch (error) {
+   console.debug('lti.frameResize of '+idval+' failed height='+height);
+   console.debug(e.data);
+  }
+});
+</script>
+</div>
+</div>
+
+    </div>
+
+ 
+                     
+                    <!-- end Tool Body -->
+                    
+                    </div>
+
+                    <!-- end Tool Container -->
+
+                 
+             
+        </div>
+
+        
+            <div id="col2of2" class="p-2 col-lg-6 col-md-12">
+
+                
+                    
+                    
+                        <!-- start Tool Container -->
+
+                        
+                        <div class="Mrphs-container Mrphs-sakai-summary-calendar">
+
+                        <!-- start include tool -->
+                        <!-- start Tool Col2 -->
+                        
+                        <!-- start Tool Header -->
+
+                      
+                                                    <nav class="Mrphs-toolTitleNav Mrphs-container Mrphs-container--toolTitleNav align-items-center">
+                                                                    <h2 class="Mrphs-toolTitleNav__title">カレンダー</h2>
+                                
+                                                             
+                                <div class="Mrphs-toolTitleNav__button_container">
+
+                                                                  
+                                                                	<!-- TO-DO: let same as the other -->
+                                	
+                                	<button class="tool-button-container si si-share link--directurl" rel="#Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_directurl" title="ツールへのダイレクトリンク" aria-haspopup="dialog">
+                                        <span class="Mrphs-itemTitle">リンク</span>
+                                    </button>
+                                    <div id="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_directurl" role="dialog" aria-labelledby="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_directurl__title" class="Mrphs-directUrl Mrphs-directUrl__dropDown">
+                                        <i class="fa fa-times dropDown_close" aria-hidden="true" tabindex="0"></i>
+                                        <label for="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_urlholder" id="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_directurl__title" class="dropDown_title">ツールへのダイレクトリンク</label>
+                                        
+                                            <input tabindex="0" type="checkbox" id="directToolUrl-3" onclick="toggleShortUrlOutput('https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/c0033689-1e2e-4485-abb9-c8b9fece8fba/', this, 'Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_urlholder');" class="Mrphs-directUrl__checkbox"><label for="directToolUrl-3">短縮 URL</label>
+
+                                         
+                                        <textarea name="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_urlholder" id="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_urlholder" tabindex="0" class="Mrphs-directUrl__textarea Mainc0033689x1e2ex4485xabb9xc8b9fece8fba_urlholder" >https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/c0033689-1e2e-4485-abb9-c8b9fece8fba/</textarea>
+                                    </div>
+                                 
+                                </div>
+                                
+                            </nav>                             
+                                               
+                       
+	                  <!-- end Tool Col2 -->
+	                  <!-- start Tool Body -->
+	
+	                  
+
+
+    <div class="Mrphs-toolBody Mrphs-toolBody--sakai-summary-calendar">
+        <iframe	name="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba"
+	id="Mainc0033689x1e2ex4485xabb9xc8b9fece8fba"
+	title="カレンダー "
+	class ="portletMainIframe"
+	height="475"
+	width="100%"
+	frameborder="0"
+	marginwidth="0"
+	marginheight="0"
+	scrolling="auto" allowfullscreen="allowfullscreen" allow="autoplay *;fullscreen *;encrypted-media *;camera 'self';microphone 'self'"
+	src="https://lms.gakusei.kyoto-u.ac.jp/portal/tool/c0033689-1e2e-4485-abb9-c8b9fece8fba?panel=Main">
+</iframe>
+    </div>
+
+ 	
+	                  <!-- end Tool Body -->
+	
+	                  <!-- end include tool -->
+	
+	                  </div>
+	                    
+	                  <!-- end Tool Container -->
+                        
+
+                     
+                
+                    
+                    
+                        <!-- start Tool Container -->
+
+                        
+                        <div class="Mrphs-container Mrphs-sakai-synoptic-announcement">
+
+                        <!-- start include tool -->
+                        <!-- start Tool Col2 -->
+                        
+                        <!-- start Tool Header -->
+
+                      
+                                                    <nav class="Mrphs-toolTitleNav Mrphs-container Mrphs-container--toolTitleNav align-items-center">
+                                                                    <h2 class="Mrphs-toolTitleNav__title">最近のお知らせ</h2>
+                                
+                                                             
+                                <div class="Mrphs-toolTitleNav__button_container">
+
+                                                                  
+                                                                	<!-- TO-DO: let same as the other -->
+                                	
+                                	<button class="tool-button-container si si-share link--directurl" rel="#Main9ed6187exff89x4b44xa701xf8733f35d557_directurl" title="ツールへのダイレクトリンク" aria-haspopup="dialog">
+                                        <span class="Mrphs-itemTitle">リンク</span>
+                                    </button>
+                                    <div id="Main9ed6187exff89x4b44xa701xf8733f35d557_directurl" role="dialog" aria-labelledby="Main9ed6187exff89x4b44xa701xf8733f35d557_directurl__title" class="Mrphs-directUrl Mrphs-directUrl__dropDown">
+                                        <i class="fa fa-times dropDown_close" aria-hidden="true" tabindex="0"></i>
+                                        <label for="Main9ed6187exff89x4b44xa701xf8733f35d557_urlholder" id="Main9ed6187exff89x4b44xa701xf8733f35d557_directurl__title" class="dropDown_title">ツールへのダイレクトリンク</label>
+                                        
+                                            <input tabindex="0" type="checkbox" id="directToolUrl-4" onclick="toggleShortUrlOutput('https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/9ed6187e-ff89-4b44-a701-f8733f35d557/', this, 'Main9ed6187exff89x4b44xa701xf8733f35d557_urlholder');" class="Mrphs-directUrl__checkbox"><label for="directToolUrl-4">短縮 URL</label>
+
+                                         
+                                        <textarea name="Main9ed6187exff89x4b44xa701xf8733f35d557_urlholder" id="Main9ed6187exff89x4b44xa701xf8733f35d557_urlholder" tabindex="0" class="Mrphs-directUrl__textarea Main9ed6187exff89x4b44xa701xf8733f35d557_urlholder" >https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/9ed6187e-ff89-4b44-a701-f8733f35d557/</textarea>
+                                    </div>
+                                 
+                                </div>
+                                
+                            </nav>                             
+                                               
+                       
+	                  <!-- end Tool Col2 -->
+	                  <!-- start Tool Body -->
+	
+	                  
+
+
+    <div class="Mrphs-toolBody Mrphs-toolBody--sakai-synoptic-announcement">
+        <iframe	name="Main9ed6187exff89x4b44xa701xf8733f35d557"
+	id="Main9ed6187exff89x4b44xa701xf8733f35d557"
+	title="最近のお知らせ "
+	class ="portletMainIframe"
+	height="475"
+	width="100%"
+	frameborder="0"
+	marginwidth="0"
+	marginheight="0"
+	scrolling="auto" allowfullscreen="allowfullscreen" allow="autoplay *;fullscreen *;encrypted-media *;camera 'self';microphone 'self'"
+	src="https://lms.gakusei.kyoto-u.ac.jp/portal/tool/9ed6187e-ff89-4b44-a701-f8733f35d557?panel=Main">
+</iframe>
+    </div>
+
+ 	
+	                  <!-- end Tool Body -->
+	
+	                  <!-- end include tool -->
+	
+	                  </div>
+	                    
+	                  <!-- end Tool Container -->
+                        
+
+                     
+                
+                    
+                    
+                        <!-- start Tool Container -->
+
+                        
+                        <div class="Mrphs-container Mrphs-sakai-synoptic-messagecenter">
+
+                        <!-- start include tool -->
+                        <!-- start Tool Col2 -->
+                        
+                        <!-- start Tool Header -->
+
+                      
+                                                    <nav class="Mrphs-toolTitleNav Mrphs-container Mrphs-container--toolTitleNav align-items-center">
+                                                                    <h2 class="Mrphs-toolTitleNav__title">メッセージセンター通知</h2>
+                                
+                                                             
+                                <div class="Mrphs-toolTitleNav__button_container">
+
+                                                                  
+                                                                	<!-- TO-DO: let same as the other -->
+                                	
+                                	<button class="tool-button-container si si-share link--directurl" rel="#Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_directurl" title="ツールへのダイレクトリンク" aria-haspopup="dialog">
+                                        <span class="Mrphs-itemTitle">リンク</span>
+                                    </button>
+                                    <div id="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_directurl" role="dialog" aria-labelledby="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_directurl__title" class="Mrphs-directUrl Mrphs-directUrl__dropDown">
+                                        <i class="fa fa-times dropDown_close" aria-hidden="true" tabindex="0"></i>
+                                        <label for="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_urlholder" id="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_directurl__title" class="dropDown_title">ツールへのダイレクトリンク</label>
+                                        
+                                            <input tabindex="0" type="checkbox" id="directToolUrl-5" onclick="toggleShortUrlOutput('https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/c3be1fa4-205e-4762-b0f5-27aa5afc7559/', this, 'Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_urlholder');" class="Mrphs-directUrl__checkbox"><label for="directToolUrl-5">短縮 URL</label>
+
+                                         
+                                        <textarea name="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_urlholder" id="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_urlholder" tabindex="0" class="Mrphs-directUrl__textarea Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559_urlholder" >https://lms.gakusei.kyoto-u.ac.jp/portal/directtool/c3be1fa4-205e-4762-b0f5-27aa5afc7559/</textarea>
+                                    </div>
+                                 
+                                </div>
+                                
+                            </nav>                             
+                                               
+                       
+	                  <!-- end Tool Col2 -->
+	                  <!-- start Tool Body -->
+	
+	                  
+
+
+    <div class="Mrphs-toolBody Mrphs-toolBody--sakai-synoptic-messagecenter">
+        <iframe	name="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559"
+	id="Mainc3be1fa4x205ex4762xb0f5x27aa5afc7559"
+	title="メッセージセンター通知 "
+	class ="portletMainIframe"
+	height="475"
+	width="100%"
+	frameborder="0"
+	marginwidth="0"
+	marginheight="0"
+	scrolling="auto" allowfullscreen="allowfullscreen" allow="autoplay *;fullscreen *;encrypted-media *;camera 'self';microphone 'self'"
+	src="https://lms.gakusei.kyoto-u.ac.jp/portal/tool/c3be1fa4-205e-4762-b0f5-27aa5afc7559?panel=Main">
+</iframe>
+    </div>
+
+ 	
+	                  <!-- end Tool Body -->
+	
+	                  <!-- end include tool -->
+	
+	                  </div>
+	                    
+	                  <!-- end Tool Container -->
+                        
+
+                     
+                 
+            </div> <!-- end of #col2of2 -->
+        </div> <!-- end of row -->
+
+         
+
+    </main>
+
+    
+    
+        
+                <footer class="portal-footer p-2 d-flex flex-column flex-xxl-row justify-content-between align-items-center mt-auto pt-3 border-top">
+        <ul class="nav">
+                        <li class="nav-item">
+                  <a class="nav-link" href="/portal/site/!gateway" target="">Gateway</a>
+              </li>
+                        <li class="nav-item">
+                  <a class="nav-link" href="/portal/help/TOCDisplay/content.hlp?docId=accessibilityinformation" target="_blank">Accessibility Information</a>
+              </li>
+                        <li class="nav-item">
+                  <a class="nav-link" href="https://www.sakailms.org/" target="_blank">The Sakai Project</a>
+              </li>
+                    <li class="nav-item">
+              <button id="server-info"
+                      class="btn nav-link"
+                      title="サーバ情報"
+                      data-bs-container="footer"
+                      data-bs-toggle="popover"
+                      data-bs-placement="top"
+                      data-bs-html="true" 
+                      data-bs-content='
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">
+        <span class="fw-bold">lms Version:</span>
+        <span>kulms</span>
+    </li>
+            <li class="list-group-item">
+            <span class="fw-bold">サーバ時間:</span>
+            <span id="serverTime" class="Mrphs-footer--server-time"></span>
+        </li>
+            <li class="list-group-item">
+        <span class="fw-bold">サーバ:</span>
+        <span>lms06</span>
+    </li>
+    <li class="list-group-item">
+        <span class="fw-bold">ビルド情報：</span>
+        <span>kulms</span>
+    </li>
+</ul>
+'
+                      data-bs-template='<div class="popover" role="tooltip"><div class="popover-arrow"></div><h3 class="mt-0 popover-header"></h3><div class="popover-body p-2"></div></div>'
+              >
+                  <i class="bi bi-info-circle"></i>
+              </button>
+          </li>
+        </ul>
+        <div class="copyright-powered">
+            <span>Copyright 2026 Kyoto University. All Rights Reserved.</span>
+            <ul>
+                                    <li>
+                        <a href="https://www.sakailms.org/" target="_blank">
+                            <img class="poweredby__image" src="/library/image/poweredBySakai.png" alt="Powered by Sakai" />
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+        <div id="tutorial" class="Mrphs-tutorial Mrphs-modal"></div>
+    </footer>
+
+    
+    <div id="Mrphs-footerApp">
+
+        
+             
+         
+    </div>
+
+ 
+ 
+ 
+     
+</div>
+<!-- END VM includePage.vm -->
+
+                        
+                        <aside class="offcanvas offcanvas-end" tabindex="-1" id="sakai-notifications-panel" aria-labelledby="sakai-notifications-panel-label">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title" id="sakai-notifications-panel-label">通知</h2>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="通知パネルを閉じる"></button>
+  </div>
+  <div class="offcanvas-body">
+    <sakai-notifications url="/api/users/me/notifications"
+                            >
+    </sakai-notifications>
+  </div>
+</aside>
+
+                        <aside class="offcanvas offcanvas-end" id="sakai-search-panel" aria-labelledby="sakai-search-panel-label">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title" id="sakai-search-panel-label">KULMS 内を検索</h2>
+	<span id="sakai-search-translation" class="invisible">検索</span>
+	<span id="sakai-search-default-title" class="invisible">KULMS 内を検索</span>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="閉じる"></button>
+  </div>
+  <div class="offcanvas-body">
+    <label class="visually-hidden" for="sakai-search-input">検索語句を入力してください</label>
+        <sakai-search page-size="10"></sakai-search>
+  </div>
+</aside>
+
+                        
+                        <aside class="offcanvas offcanvas-end" tabindex="-1" id="sakai-account-panel" aria-labelledby="sakai-account-panel-label">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title m-0" id="sakai-account-panel-label">アカウント</h2>
+    <span>&nbsp;</span>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close this account menu"></button>
+  </div>
+
+  <div class="offcanvas-body d-flex flex-column">
+    <div class="text-center mb-3 pb-2">
+      <div id="sakai-profile-image-block">
+              </div>
+      <h3 class="m-0">原隆志</h3>
+            <ul class="nav flex-column">
+                                                                                                                                                                                  
+        
+                <li>
+          <div class="text-center pt-3 mt-auto">
+            <fieldset class="btn-group" role="radiogroup" aria-label="Switch between light and dark themes">
+              <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true">
+                  <button role="switch" 
+                    aria-checked="false"
+                    id="sakai-dark-theme-switcher"
+                    title="ダークテーマに変更"
+                    class="sakai-theme-switch Mrphs-userNav__submenuitem--themeSwitcher switch">
+                    <span class="bi bi-sun"></span>
+                    <span class="bi bi-moon"></span>
+                  </button>
+              </div>
+            </fieldset>
+          </div>
+        </li>
+              </ul>
+    </div>
+
+    <div class="accordion flex-grow-1 overflow-auto" id="sakai-accountPanelWidgets">
+              <div class="accordion-item">
+          <div class="accordion-header" id="sakai-accountPanelWidgets-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sakai-accountPanelWidgets-collapseOne" aria-expanded="false" aria-controls="sakai-accountPanelWidgets-collapseOne">
+              タスク
+            </button>
+          </div>
+            <div  id="sakai-accountPanelWidgets-collapseOne" class="accordion-collapse collapse" aria-labelledby="sakai-accountPanelWidgets-headingOne">
+              <div class="accordion-body p-2">
+                                <sakai-tasks site-id="~4ea855ea-a5e2-463c-8306-0719cf37a613" defer></sakai-tasks>
+              </div>
+            </div>
+        </div>
+            <div class="accordion-item">
+        <div class="accordion-header" id="sakai-accountPanelWidgets-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sakai-accountPanelWidgets-collapseTwo" aria-expanded="false" aria-controls="sakai-accountPanelWidgets-collapseTwo">
+            カレンダー
+          </button>
+        </div>
+        <div id="sakai-accountPanelWidgets-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sakai-accountPanelWidgets-headingTwo">
+          <div class="accordion-body p-2">
+                        <sakai-calendar user-id="4ea855ea-a5e2-463c-8306-0719cf37a613" defer></sakai-calendar>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" id="sakai-accountPanelWidgets-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sakai-accountPanelWidgets-collapseThree" aria-expanded="false" aria-controls="sakai-accountPanelWidgets-collapseThree">
+            成績
+          </button>
+        </div>
+        <div id="sakai-accountPanelWidgets-collapseThree" class="accordion-collapse collapse" aria-labelledby="sakai-accountPanelWidgets-headingThree">
+          <div class="accordion-body p-2">
+                        <sakai-grades defer></sakai-grades>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center pt-3 mt-auto">
+      <a href="https://lms.gakusei.kyoto-u.ac.jp/portal/logout" title="ログアウト" id="loginLink1" class="bi bi-box-arrow-right btn btn-primary w-100" data-warning="">
+        <span class="Mrphs-login-Message">ログアウト</span>
+      </a>
+    </div>
+  </div>
+</aside>
+
+                        
+<nav class="portal-mobilebar bg-dark d-flex d-md-none align-items-center justify-content-between">
+  <ul class="nav flex-nowrap align-items-center justify-content-around w-100">
+    <li>
+      <button class="btn icon-button responsive-allsites-button"
+          data-bs-toggle="offcanvas"
+                    data-bs-target="#select-site-sidebar"
+          aria-controls="select-site-sidebar"
+          aria-label="すべてのサイトを表示"
+          title="すべてのサイトを表示">
+                    <i class="si si-all-sites"></i>
+      </button>
+    </li>
+
+        <li>
+      <button class="portal-notifications-button btn icon-button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sakai-notifications-panel"
+          aria-controls="sakai-notifications-panel"
+          aria-label="通知を表示"
+          title="通知を表示">
+        <i class="bi-bell"></i>
+        <i class="portal-notifications-no-permissions-indicator si si-warning d-none"
+           aria-label="通知はまだ許可されていません">
+        </i>
+        <span class="portal-notifications-indicator p-1 bg-danger rounded-circle d-none">
+          <span class="visually-hidden">新着通知</span>
+        </span>
+      </button>
+    </li>
+    
+        <li>
+      <a class="btn icon-button"
+          href="/portal"
+          title="ホーム">
+        <i class="bi-house"></i>
+      </a>
+    </li>
+    
+        <li>
+      <button class="btn icon-button portal-search-button"
+      		data-bs-toggle="offcanvas"
+          data-bs-target="#sakai-search-panel"
+          aria-controls="sakai-search-panel"
+          aria-label="KULMS 内を検索"
+          title="KULMS 内を検索">
+        <i class="bi-search"></i>
+      </button>
+    </li>
+    
+  
+
+                  <li>
+        <a class="sak-sysInd-help nav-link text-white responsive-help-icon" href="https://lms.gakusei.kyoto-u.ac.jp/portal/help/main?help=sakai.motd">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16" role="img" aria-label="View contextual help for this page" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Help">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+        </a>
+      </li>
+      
+  </ul>
+</nav>
+
+
+        </div> <!-- end Mrphs-portalWrapper -->
+
+        <!-- END VM site.vm -->
+                 
+ 
+        <script>
+  // In plus portal there is no nav to augment.
+  if ( ! inPlusPortal() ) {
+  //Set portal dom references
+  portal.container = document.querySelector("div.portal-container");
+  portal.head = portal.container.querySelector("header.portal-header");
+  portal.footer = portal.container.querySelector("footer.portal-footer");
+  portal.sidebars = {
+    sites: portal.container.querySelector("#portal-nav-sidebar")
+  };
+
+  //Setup sidebar collapse buttons
+  new SidebarCollapseButton(document.getElementById("sidebar-collapse-button"), {
+    i18n: {
+      titleExpanded: "サイドバーを畳む",
+      titleCollapsed: "サイドバーを展開"
+    },
+    toggleClass: "sidebar-collapsed",
+    portalContainer: portal.container,
+    sitesSidebar: portal.sidebars.sites,
+  });
+
+  //Setup sidebar
+  const siteSidebar = new SitesSidebar(portal.sidebars.sites, {
+    i18n: {
+      expandTools: "ツールリストを展開",
+      collapseTools: "ツールリストを畳む",
+      pinButtons: {
+        titlePin: "Pin site",
+        titleUnpin: "ピン留めを外す",
+      },
+    },
+    currentSite: "~4ea855ea-a5e2-463c-8306-0719cf37a613",
+  });
+  const setSidebarView = (currentBP, previousBP) => {
+    let currentMobile = BreakpointManager.compare(currentBP, "sm") <= 0;
+    let previousMobile = previousBP ? BreakpointManager.compare(previousBP, "sm") <= 0 : null;
+    //Only set View if we are crossing the sm breakpoint
+    if (previousMobile === null || currentMobile != previousMobile) {
+      siteSidebar.setView(currentMobile);
+    }
+  };
+  portal.breakpointManager.registerCallback(setSidebarView);
+  setSidebarView(portal.breakpointManager.currentBreakpoint);
+
+  //Setup server info popover
+  new ServerInfoPopover(document.querySelector("#server-info"), {
+        serverTime: {
+      selector: "#serverTime",
+      initialTime: 1775732439669,
+      timeZone: "JST",
+    },
+            popoverContainer: portal.footer,
+    iconClasses: ["bi-info-circle", "bi-info-circle-fill"],
+  });
+
+  } /* if ( ! inPlusPortal() ) */
+</script>
+<script>
+  var needJQuery = true;
+  var secondJQuery = false;
+  var notJQuery = false;
+  var dollarEmpty = false;
+  var dollarVersion = false;
+  if (window.$) {
+    if (window.$.fn && window.$.fn) {
+      dollarVersion = window.$.fn.jquery;
+    } else {
+      dollarVersion = 'not jQuery';
+      console.debug('Dollar is defined but is not jQuery');
+      console.debug($);
+      //Just have it reload this other $ afterward
+      notJQuery = true;
+    }
+  } else {
+    dollarEmpty = true;
+    dollarVersion = 'not present';
+    if (window.jQuery) {
+      console.debug('tool called jQuery.noConflict()');
+    }
+  }
+  if (window.jQuery) {
+    tver = jQuery.fn.jquery;
+    if (tver.indexOf('1.12.') == 0) {
+      console.debug('Using tool jQuery '+tver);
+      needJQuery = false;
+    } else {
+      secondJQuery = true;
+    }
+  }
+  if (needJQuery) {
+    document.write('\x3Cscript src="/library/webjars/jquery/1.12.4/jquery.min.js?version=kulms">'+'\x3C/script>')
+    document.write('\x3Cscript src="/library/webjars/jquery-migrate/1.4.1/jquery-migrate.min.js?version=kulms">'+'\x3C/script>')
+    document.write('\x3Cscript src="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js?version=kulms">'+'\x3C/script>')
+    document.write('\x3Clink rel="stylesheet" href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css?version=kulms"/>')
+    if (Modernizr.touch) {
+      document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-ui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js?version=kulms">'+'\x3C/script>')
+    }
+    console.debug('Portal scripts loaded JQ+MI+UI');
+  } else {
+    if (typeof jQuery.migrateWarnings == 'undefined') {
+      document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-migrate/1.4.1/jquery-migrate.min.js?version=kulms">'+'\x3C/script>')
+      console.debug('Portal adding jQuery migrate');
+    }
+    if (typeof jQuery.ui == 'undefined') {
+      document.write('\x3Clink rel="stylesheet" href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css?version=kulms"/>')
+      console.debug('Portal adding jQuery UI');
+    }
+    if (typeof jQuery.ui == 'undefined' || (typeof jQuery.ui.mouse != 'undefined' && typeof jQuery.ui.mouse.prototype._touchStart == 'undefined')) {
+      document.write('\x3Cscript type="text/javascript" src="/library/webjars/jquery-ui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js?version=kulms">'+'\x3C/script>')
+      console.debug('Portal adding jQuery UI Touch Punch for touch device support');
+    }
+  }
+</script>
+
+<script>
+  $PBJQ = jQuery; // The Portal's jQuery (also in $ for now)
+</script>
+
+<script src="/portal/scripts/sessionstoragemanager.js?version=kulms"></script>
+
+<script>
+  if (typeof Handlebars == 'undefined') {
+    document.write('\x3Cscript src="/library/webjars/handlebars/4.0.6/handlebars.runtime.min.js?version=kulms">\x3C/script>');
+  }
+</script>
+
+<script src="/library/templates.js?version=kulms"></script>
+<script>includeWebjarLibrary("qtip2");</script>
+<script src="/library/js/jquery/qtip/tutorial.js?version=kulms"></script>
+<script src="/library/js/jquery/bgiframe/jquery.bgiframe.min.js?version=kulms"></script>
+<script src="/library/js/jquery/cluetip/1.2.10/jquery.cluetip.min.js?version=kulms"></script>
+<script>
+  if (typeof jQuery.i18n == 'undefined') {
+    document.write('\x3Cscript src="/library/webjars/jquery-i18n-properties/1.2.2/jquery.i18n.properties.min.js?version=kulms">\x3C/script>');
+  }
+</script>
+<script src="/library/js/jquery/jquery.clearsearch.js?version=kulms"></script>
+
+<script src="/library/webjars//pnotify/4.0.0/dist/iife/PNotify.js?version=kulms"></script>
+<script src="/library/webjars//pnotify/4.0.0/dist/iife/PNotifyButtons.js?version=kulms"></script>
+<script src="/library/webjars//cropper/4.1.0/dist/cropper.min.js?version=kulms"></script>
+
+
+<script src="/library/js/portal/portal.theme.switcher.js?version=kulms"></script>
+
+<script>
+  function portal_check_pnotify() {
+
+    $PBJQ.getJSON( "/direct/portal/notify.json", function(data) {
+
+      data.error.forEach(error => {
+
+        $PBJQ(function () {
+
+          PNotify.defaults.styling = 'bootstrap3';
+          PNotify.defaults.icons = 'fontawesome4';
+          PNotify.alert({
+            title: '注意',
+            text: error,
+            type: 'notice',
+          });
+        });
+      });
+    });
+  }
+  </script>
+
+
+<script type="module" src="/webcomponents/bundles/body-scripts.js?version=kulms"></script>
+<script src="/library/js/sakai.scripts.min.js?version=kulms"></script>
+
+
+
+<script>
+  var sakaiPortalWindow = "";
+</script>
+
+<script>
+// LTI frame management code shared with tsugi-static/js/tsugiscripts.js
+// If we are not the top frame - immediately communicate our size and jack into the JQuery resize
+// Debounce happens in lti_frameResize()
+if ( ! (self == top) ) {
+    if ( typeof LTI_PARENT_IFRAME_ID === 'undefined' ) {
+        lti_frameResize();
+        $(window).on('resize', function() { lti_frameResize(); });
+    } else {
+        lti_frameResize(false, LTI_PARENT_IFRAME_ID);
+        $(window).on('resize', function() { lti_frameResize(false, LTI_PARENT_IFRAME_ID); });
+    }
+}
+</script>
+
+<script>
+  // If we loaded a second jQuery, revert $ and jQuery to the first jQuery
+  if (secondJQuery) {
+    $PBJQ = jQuery.noConflict(true); // Safely return $ to the tool jQuery
+    if (!dollarEmpty && !notJQuery ) jQuery = $;  // Return jQuery to point at the tool jQuery
+  }
+  if (notJQuery && !secondJQuery) {
+    $PBJQ = jQuery.noConflict(true); // Safely return $ to the tool jQuery
+    //Just set jQuery to be the same thing since it didn't exist before
+    jQuery = $PBJQ;
+  }
+  console.debug(`Portal script load complete PBJQ=$PBJQ.fn.jquery jQuery=${jQuery.fn.jquery} $=${dollarVersion}`);
+
+  // Listen for notifications-loaded on the body element. This is fired by the sui-notifications
+  // component when it has an update to its list of notifications
+  document.body.addEventListener("notifications-loaded", e => {
+
+    document.body.querySelectorAll(".portal-notifications-indicator").forEach(span => {
+      span.classList.toggle("d-none", !e.detail.count);
+    });
+  });
+</script>
+
+        <script>
+// Work around the fact that several pages pull in very old versions
+// of JQuery.
+function paSystemJQueryOK() {
+    if (!window.jQuery) {
+        /* no jQuery at all */
+        return false;
+    }
+
+    var version_numbers = jQuery.fn.jquery.split('.');
+
+    /* >= 1.9+ */
+    return (parseInt(version_numbers[0]) > 1) || (parseInt(version_numbers[0]) == 1 && parseInt(version_numbers[1]) >= 9);
+}
+
+if (paSystemJQueryOK()) {
+  document.write('\x3Cscript src="/pasystem-tool/scripts/pasystem.js?version&#x3D;kulms">\x3C/script>');
+  document.write('\x3Cscript>includeWebjarLibrary(\'featherlight\')\x3C/script>');
+
+  var pasystem = pasystem || {'loaded': true};
+} else {
+  console.log("PASystem not loaded for this page because jQuery is missing or unsupported.");
+}
+</script>
+
+<link href="/pasystem-tool/stylesheets/pasystem.css?version&#x3D;kulms" rel="stylesheet" property="stylesheet" type="text/css" />
+<script id="pasystemBannerAlertsTemplate" type="text/template">
+  <div class="pasystem-banner-alert pasystem-banner-${type}" id="${id}">
+    <span class="pasystem-banner-alert-message">${message}</span>
+    {if dismissible}
+      <a class="pasystem-banner-alert-close" href="javascript:void(0)">
+        <span class="sr-only">Dismiss Alert</span>
+      </a>
+    {/if}
+  </div>
+</script>
+<script id="pasystemBannerAlertsToggleTemplate" type="text/template">
+  <li class="pasystem-banner-alert-toggle-list-item">
+    <a href="javscript:void(0)" class="pasystem-banner-alert-toggle">
+      システム警告を表示
+    </a>
+  </li>
+</script>
+<script>
+  if (pasystem) {
+    pasystem['banners'] = new PASystemBannerAlerts([], "16bdea61ccdc4d3f00d085dc4094950c231ec05279a4b91c2db0c55f1129ed0d");
+  }
+</script>
+<script type="text/template" id="popup-container-content">
+
+</script>
+
+<script type="text/template" id="popup-container-footer">
+<div class="popup-container-footer">
+  <a href="javascript:void(0)" class="popup-dismiss-button permanent" id="popup-acknowledged-button">再表示しません</a>
+  <a href="javascript:void(0)" class="popup-dismiss-button temporary" id="popup-later-button">後で通知</a>
+</div>
+</script>
+
+
+<script id="timezoneBannerTemplate" type="text/template">
+  <span>
+    あなたのコンピュータのタイムゾーンは <span class="computerTimezone">${reportedTimezone}</span> あなたのアカウントタイムゾーンとマッチしません <span class="prefsTimezone">${prefsTimezone}</span>. <span class="pasystem-tz-click-here"><a href="${setTimezoneUrl}" id="setTimezoneMsg">ここをクリックしてタイムゾーンプリファレンスを更新してください</a></span>.
+  </span>
+</script>
+
+<script>
+  if (pasystem) {
+    new PASystemTimezoneChecker().checkTimezone();
+  }
+</script>
+
+
+        <!-- START VM includeCookieNotice.vm -->
+<!-- END VM includeCookieNotice.vm -->
+
+         
+        
+    
+
+    </body>
+</html>
